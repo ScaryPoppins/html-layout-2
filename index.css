@@ -1,0 +1,139 @@
+/* *{
+border: solid;
+border-color: white;
+border size: 1px;
+} */
+
+
+body{
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-container{
+    display:flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 1vw;
+    padding-top: 5vh;
+}
+#head-left{
+    padding-right: 20vw;
+    padding-left: 2vw;
+} 
+#head-right{
+    padding-left: 20vw;
+    padding-right: 2vw;
+
+}
+.main-container{
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    justify-content: space-between;
+}
+.left-container{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    color:white;
+    margin-left: 2vw;
+    width: 18vw;
+    padding-bottom: 2vh;
+    font-size: .6rem;
+    font-weight: bold;
+}
+li{
+    line-height: 0.45rem;
+    transform: rotate(-90deg);
+    font-weight: bold;
+    /* padding-left: 15vh;
+    margin-left: 15vh; */
+    /* padding: 10vh;
+    margin: 10vh; */
+
+}
+.detail-container{
+    display: flex;
+    color:white;    
+    width: 60vw;
+    height: 80%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 20vw;  
+}
+#spartan{
+    background-image: url('./spartan.jpg');
+    min-height: 15%;
+    min-width: 10%;;
+    background-repeat: no-repeat;
+}
+#discover{
+    font-size: 5rem;
+    font-style: bold;
+    font-family: Helvetica, sans-serif;
+  
+}
+#intro{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+    line-height: 1.5rem;
+    font-family: Helvetica, sans-serif;
+
+
+
+}
+#button{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    color: navy; 
+    background-color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+   
+
+}
+#scroll{
+    font-size: 0.9rem;
+    padding-top: 10%;
+}
+
+.right-container{
+    display:flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    width: 10vh;
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+}
+#tweeter{
+    background-image: url('./Tweeter.JPG');
+    min-height: 40px;
+    background-repeat: no-repeat;
+ 
+}
+#facebook{
+    background-image: url('./Facebook.JPG');
+    min-height: 40px;
+    background-repeat: no-repeat;
+}
+#linkedIn{
+    background-image: url('./LinkedIn.JPG');
+    min-height: 40px;
+    background-repeat: no-repeat;
+}
+#links{
+    background-image: url('./Links.JPG');
+    min-height: 40px;
+    background-repeat: no-repeat;
+}
